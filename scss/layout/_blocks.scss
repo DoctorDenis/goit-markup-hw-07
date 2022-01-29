@@ -1,0 +1,22 @@
+// ------------  Building blocks -----------
+
+// Universal container
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+// Section
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.header {
+  .container {
+    display: flex;
+    align-items: center;
+  }
+}
