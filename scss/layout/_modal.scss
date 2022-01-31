@@ -15,7 +15,7 @@
   position: absolute;
   top: 8px;
   right: 8px;
-  @include font(Roboto, normal, 600, 24px, (24 / 24), 0.01em);
+  @include font(Roboto, normal, 400, 20px, (26 / 20), 0.03em);
   width: 30px;
   height: 30px;
   border: 1px solid var(--black-01opacity);
