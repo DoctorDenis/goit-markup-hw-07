@@ -778,16 +778,16 @@ ol {
   border-bottom: 1px solid #ececec;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .header .container {
@@ -836,6 +836,7 @@ ol {
   background-size: cover;
   max-width: 1600px;
   margin: 0 auto;
+  width: 100%;
 }
 
 .hero__header {

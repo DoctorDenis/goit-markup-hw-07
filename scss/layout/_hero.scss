@@ -13,6 +13,7 @@
   background-size: cover;
   max-width: 1600px;
   margin: 0 auto;
+  width: 100%;
 }
 
 .hero__header {
@@ -45,5 +46,6 @@
   &:focus,
   &:hover {
     background-color: var(--accent-color-hover);
+    // @include font(Roboto, normal, 700, 16px, (30 / 16), 0.06em);
   }
 }
